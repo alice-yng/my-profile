@@ -1,0 +1,180 @@
+
+
+/* body */
+body {
+	background: linear-gradient(110deg, #FFFBF5 60%, #F7EFE5 60%);
+	font-weight: 200;
+	color: #D8BFD8;
+	word-spacing: 10px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Monoton', cursive;
+	
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Monoton', cursive;
+}
+
+
+h3 {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+
+ /* Container */
+
+.container {
+	width: 900px;
+	padding: 60px 50px;
+  	margin: 80px auto;
+  	border-radius: 5px;
+  	box-shadow: 20px 20px 15px 15px rgba(0, 0, 200, 0.1);
+  	background-image: url("https://e1.pxfuel.com/desktop-wallpaper/358/30/desktop-wallpaper-azlanalfarizy-alfarizyrina-on-cute-green-spring-aesthetic.jpg");
+  	background-size: cover;
+}   
+
+.second-container {
+	width: 900px;
+	padding: 60px 50px;
+  	margin: 80px auto;
+  	border-radius: 5px;
+  	box-shadow: 20px 20px 15px 15px rgba(0, 0, 200, 0.1);
+  	background-image: url("https://i0.wp.com/ideawallpapers.com/wp-content/uploads/2021/12/rainbow-pink-wallpaper-8.jpg?fit=1170%2C2530&ssl=1");
+  	background-size: cover;
+}
+
+.second-container .box-front {
+	background-color: #FFDDD2;
+
+
+}
+
+ /* card */
+
+.card-white {	
+    border: 4px solid #D8BFD8;
+    background-color: white;
+    width: 700px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+ /* box */
+
+.box {
+        background-color: transparent;
+        width: 300px;
+        height: 230px;
+        border: 4px solid #E5E0FF;
+        perspective: 500px;
+        display: inline-block;
+
+      }
+
+.box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.9s;
+        transform-style: preserve-3d;
+      }
+
+.box:hover .box-inner {
+        transform: rotateX(180deg);
+      }
+
+.box-front, .box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+
+.box-front {
+        background-color: #ECF2FF;
+      }
+
+.box-back {
+        background-color: #FFF4D2;
+        transform: rotateX(180deg);
+      }
+
+/* images */
+
+#photo-profile {
+	width: 350px;
+	height: 350px;
+	clip-path: ellipse(50% 50%);
+}
+.animals {
+	width: 70px;
+	height: 100px;
+}
+
+/* button */
+
+button {
+	display: block;
+        background-color: #FFDDD2;
+        border-radius: 10px;
+        border: 4px double ;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        padding: 10px;
+        width: 100px;
+        cursor: pointer;
+        margin: 5px auto;
+    }
+
+/* list */
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+i :hover { 
+	color: blue;   /* à revoir*/
+
+} 
+
+li {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+	padding: 5px;
+}
+
+/* média*/
+
+@media (max-width: 900px) {
+	.container{
+		width: 600px;
+	}
+	.card-white {  
+	width: 400px;
+	}
+}
+@media (max-width: 500px) {
+	.container{
+		width: 350px;
+	}
+	.card-white {  
+	width: 250px;
+	font-size: 50px;
+	}
+}
+
+
+
+
